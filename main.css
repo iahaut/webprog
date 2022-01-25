@@ -1,0 +1,67 @@
+*{/*koko dokumentti*/}
+.container {
+    display: flex; /*jakaa sivun sisällön kahteen palkkiin*/
+}
+.navi { /*vasen palkki*/
+    background-color: blanchedalmond;
+    flex: 50%; /*selvitä*/
+    float: left;
+    max-width: 20%;
+}
+h2  {/*"reseptit"*/
+    padding-left: 40px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+ul { /*lista*/
+    list-style-type: none;
+    margin: 0;
+    padding: 20px;
+}
+.main {/*pääsivu*/
+    flex: 50%; /*selvitä*/
+    float: left; /*kokeile right*/
+    width: 75%;
+}
+h1 { /*"sitruunainen kikhernepata"*/
+    font-family: monospace;
+    font-size: 50px;
+    padding-left: 50px;
+}
+.pic {/*kuva*/}
+h3 {/*"tätä reseptiä..."*/
+    font-size: 20px;
+    padding-left: 20px;
+}
+#tuotteet { /*taulukko*/
+    border-collapse: collapse;
+    width: 50%;
+}
+#tuotteet td{
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+#tuotteet th { /*solu*/
+    border: 1px solid #ddd;
+    padding: 8px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: #443e2a;
+    color: white;
+}
+tr:nth-child(even) {background-color: #b9b5a9;}
+p {
+    padding-left: 20px;
+}
+a:link { text-decoration: none;}  
+a:visited { text-decoration: none;} 
+a:hover { text-decoration: underline;}
+a:active { text-decoration: underline;}
+a { /*linkki*/color: black;}
+
+#notes {
+    padding-left: 40px;
+}
+#notes_form {
+    padding-left: 30px;
+}
